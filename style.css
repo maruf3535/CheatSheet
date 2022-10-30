@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-family: 'Patua One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+nav img {
+    width: 42px;
+    padding: 5px 10px;
+    border-radius: 40%;
+}
+
+.container {
+    width: 60vw;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 5px;
+}
+
+.code-headline {
+    font-size: 1.2rem;
+}
+
+.toolbar-item button {
+    color: white !important;
+    padding: 5px 15px !important;
+    margin: 5px !important;
+    cursor: pointer !important;
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        width: 80vw;
+    }
+}
